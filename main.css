@@ -1,5 +1,17 @@
+* {
+    font-family: "Raleway", sans-serif;
+    background: #908D71;
+}
+
 .page--header {
     text-align: center;
+    margin: 50px;
+    font-size: 50px;
+    font-family: "Monoton", cursive;
+    letter-spacing: 10px;
+    background: #3F3F37;
+    color: #D6D6B1;
+    
 }
 
 .columns {
@@ -11,5 +23,27 @@
 .shop {
     width: 30%;
     text-align: center;
-    border: 1px dashed black;
+    border: 1px solid #D6D6B1;
+    margin-bottom: 20px;
+}
+
+.shop, .shop--name, .shop--address, .shop--phone, .shop--website {
+    background: #3F3F37;
+}
+
+.shop--name {
+    color: #D6D6B1;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.shop--address, .shop--phone {
+    color: #878472;
+}
+
+.shop--website {
+    color: #908D71;
+    border: 2px solid #D6D6B1;
+    padding: 5px;
+    margin-bottom: 20px;
 }
