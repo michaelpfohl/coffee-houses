@@ -1,0 +1,15 @@
+.page--header {
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.shop {
+    width: 30%;
+    text-align: center;
+    border: 1px dashed black;
+}
